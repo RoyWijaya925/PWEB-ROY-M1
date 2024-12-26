@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            background-color: #424141;
+            display: inline-block;
+            width: 100%;
+        }
+        nav ul {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+        }
+        nav ul li {
+            float: left;
+            background-color: #424141;
+        }
+        nav a{
+            display: block;
+            padding: 0 10px;
+            color: #fff;
+            line-height: 60px;
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover{
+            background-color: #000;
+        }
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 60px;
+        }
+        nav ul li:hover > ul {
+            display: block;
+        }
+        nav ul ul li {
+            width: 170;
+            float: none;
+            display: list-item;
+            position: relative;
+        }
+        nav ul ul ul li {
+            position: relative;
+            top: -50px;
+            left: 170px;
+        }
+    </style>
+</head>
+<body>
+    <header style="display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;">
+    <h1>HOTEL</h1>
+    <img  src="https://ik.imagekit.io/tvlk/blog/2020/03/Kollektiv-Hotel-Bandung.jpeg?tr=dpr-2,w-675" alt="Gambar Hotel"
+    width="340px"
+    height="100px">   
+</header>
+<nav>
+    <ul>
+      <li><a href="">HOME</a></li>
+      <li><a href="">KAMAR</a></li>
+      <li><a href="">FASILITAS</a>
+         <ul>
+                <li><a href="">PETUALANG ALAM</a></li>
+                <li><a href="">KOLAM RENANG</a>
+         <ul>
+                <li><a href="">SUMBER AIR PANAS</a></li>
+                <li><a href="">KOLAM ANAK & DEWASA</a>
+         <ul>
+                <li><a href="">REGULER</a></li>
+                <li><a href="">PREMIUM</a></li>
+          </ul>
+        </li>
+    </ul>
+</li>
+          <li><a href="">PUSAT KEBUGARAN</a></li>
+          <li><a href="">RUANG RAPAT</a></li>
+    </ul>
+</li>
+         <li><a href="">PESAN SEKARANG</a></li>
+    </ul>
+</nav>
+<main style="flex: 1; display: flex; gap: 50px; padding: 20px">
+  <div class="videos" style="display: flex; flex-direction: column; gap: 10px">
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/-uZCbrz5AN0?si=CSQj2jfQ_8W1L9P2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/-uZCbrz5AN0?si=CSQj2jfQ_8W1L9P2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/-uZCbrz5AN0?si=CSQj2jfQ_8W1L9P2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div>
+    <table>
+      <tr>
+        <td>
+          <img
+            src="vip.jpg"
+            alt=""
+            width="350px"
+            height="200px">
+        </td>
+        <td>
+          <img
+            src="vvip.jpg"
+            alt=""
+            width="350px"
+            height="200px">
+        </td>
+        <td>
+          <img
+            src="kamar3.jpg"
+            alt=""
+            width="350px"
+            height="200px">
+        </td>
+        <tr>
+        <td>
+          <img
+            src="kamar4.webp"
+            alt=""
+            width="350px"
+            height="200px">
+        </td>
+        <td>
+          <img
+            src="kamar5.jpg"
+            alt=""
+            width="350px"
+            height="200px">
+        </td>
+        <td>
+          <img
+            src="kamar6.jpeg"
+            alt=""
+            width="350px"
+            height="200px">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="kamar7.jpeg"
+            alt=""
+            width="350px"
+            height="200px"
+          />
+        </td>
+        <td>
+          <img
+            src="kamar8.jpg"
+            alt=""
+            width="350px"
+            height="200px"
+          />
+        </td>
+        <td>
+          <img
+            src="kamar9.jpg"
+            alt=""
+            width="350px"
+            height="200px"
+          />
+        </td>
+      </tr>
+    </table>
+  </div>
+</main>
+<footer style="flex: 0 0 5%;
+background-color: black;
+text-align: center;
+padding: 10px;">
+<p style="color: white;">CopyRight Roy Wijaya Santosa</p>
+</footer>
+</body>
+</html>
